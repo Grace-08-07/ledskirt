@@ -1,9 +1,9 @@
-#include "FastLED.h"
-#define NUM_STRIPS 6  // The number of strips
+#include <FastLED.h>
+#define NUM_STRIPS 150  // The number of strips
 #define NUM_LEDS 20   // The number of LEDs per strip
 const int TOTAL_LEDS = NUM_LEDS*NUM_STRIPS;
 CRGB leds[TOTAL_LEDS];
-#define PIN A3 
+#define PIN 6 
 // Fire Base Color 
 // RED = 0, GREEN = 1, BLUE = 2, PURPLE = 3
 #define FIRE_BASE_COLOR 0
